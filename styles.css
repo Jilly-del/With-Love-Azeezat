@@ -1,0 +1,383 @@
+
+body{
+    background-color: #242424;
+	color: #fff;
+	font-family: "Montserrat", "sans-serif";
+      
+
+}
+
+
+/* NARBAR */
+#nav-bar { 
+    text-align: center;
+    margin: 72px 0 30px 0 ; 
+}
+
+ a {
+    color:#FFFCF8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    
+ }
+
+ a:hover {
+	color: black;
+	background: #fff;
+	font-weight: 800;
+}
+
+ li {
+    list-style: none;
+    display: inline-block;
+    padding : 0 16px;
+     
+}
+
+
+/* header */
+
+.header-text{
+    text-align: center;
+
+}
+
+.banner-header{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+.header-p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 5px;
+        
+}
+
+
+.top-img{
+    width: 348px;
+    height: 435px;
+    margin: 35px 10px;
+    box-sizing: border-box;
+
+}
+
+/* ABOUT */
+
+
+.About {
+	background-color: #3C3B3B;
+	width: 100%;
+    padding: 40px  20px;
+    margin: 0;
+;
+ 
+      
+}
+
+h2 {
+	font-weight: 700;
+    font-size: 42px;
+}
+
+
+/* Tributes */
+
+
+.tribute-header{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-left:20px ;
+}
+
+
+.tribute-container {
+    width: 95%;
+    background-color: #3C3B3B;
+    border-radius: 20px;
+    margin: 10px
+    
+   
+}
+
+
+.tribute-img {
+	border-radius: 50%;
+	width: 100px;
+	display: inline;
+
+}
+.container-header{
+    position: relative;
+    padding: 20px ;
+}
+
+ .container-header-text-one{
+    float: right;
+    position: absolute;
+    top: 30px;
+    left: 125px;
+ }
+
+.container-header-text-two{
+    float: right;
+    position: absolute;
+    top: 50px;
+    left: 125px;
+}
+ 
+.tribute-P {
+    padding:0 20px;
+}
+
+
+/* Gallery */
+.Gallery-header {
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+ .gallery-img {
+	text-align: center;
+	margin-bottom: 20px;
+
+
+} 
+
+.gallery-img2{
+	width: 95%;
+	padding-left: 1.5rem;
+
+}
+.img-with-friends{
+	width:95%;
+	padding-left: 1.5rem;
+	
+}
+.img-with-friends1{
+	width: 95%;
+		padding-left: 1.5rem;
+
+}
+
+
+
+
+footer{
+    padding: 40px;
+    text-align: center;
+}
+ h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+ 
+
+}
+
+/* Media Query */
+@media screen and (min-width:720px) {
+    body {
+        background-color: #242424;
+        color: #fff;
+        font-family: "Montserrat", "sans-serif";
+    
+    
+    }
+    
+    /* nav-bar */
+    #nav-bar {
+        margin-top: 20px;
+        text-align: center;
+        
+    }
+  
+    
+    ul li {
+        list-style-type: none;
+        color: black;
+        display: inline-block;
+        padding: 0 10px;
+    }
+    
+    a {
+        text-decoration: underline;
+        color: #FFFCF8;
+        font-size: 20px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    
+    a:hover {
+        color: black;
+        background: #fff;
+        font-weight: 800;
+    }
+    
+    /* header */
+    .header {
+        height: 46.875rem;
+        width: 68.25rem;
+        text-align: center;
+        margin: 20px;
+        padding-top: 20px;
+    }
+    
+    
+    .top-img {
+        position: absolute;
+        top: 40px;
+        left: 100px;
+        width: 600px;
+        height: 100%;
+        display: inline-block;
+    }
+    
+    .header-text-1{
+        position: absolute;
+        top: 220px;
+        right: 100px;
+
+    }
+    .banner-header{
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 72px;
+        text-align: left;
+    }
+    
+    .header-p{
+        font-size: 1.5rem;
+        line-height: 27.94px;
+        text-align: left;
+        margin: 0;
+            
+    }
+    
+    
+    /* ABOUT */
+    .About {
+        background-color: #3C3B3B;
+        padding: 20px  180px;
+        margin-right: 0;
+    }
+    
+    h2 {
+        font-weight: 700;
+    font-size: 42px;
+    }
+    
+    /* Tributes */
+    .tribute-header{
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 22px;
+        margin-bottom: 20px;
+        margin-left:20px ;
+    }
+    
+    
+    .tribute-container {
+        width: 95%;
+        background-color: #3C3B3B;
+        border-radius: 20px;
+        margin: 10px
+    
+    
+    }
+    
+    
+    .tribute-img {
+        border-radius: 100%;
+        width: 100px;
+        display: inline;
+    
+    }
+    .tribute-parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .tribute-p-one {
+        position: absolute;
+        left: 140px;
+        top: 40px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    
+    .tribute-p-two {
+        position: absolute;
+        left: 140px;
+        top: 70px;
+        font-size: 20px;
+    }
+    
+    
+    
+    .tribute-header {
+        padding-left: 15px;
+    }
+    
+    .tribute-img {
+        border-radius: 50%;
+        width: 100px;
+        display: inline-block;
+    }
+    
+    /* Gallery */
+    
+    .Gallery-header {
+        padding-left: 180px;
+        padding-top: 20px;
+    }
+    
+    .gallery-img {
+        text-align: center;
+        padding: 5% 10%;
+    
+    }
+    
+    .gallery-img2{
+        width: 65%;
+    }
+    .img-with-friends{
+        width:400px;
+    }
+    .img-with-friends1{
+        width:400px;
+    
+    }
+    .arafat-image{
+     width: 100%;   
+    }    
+    .carousel-item {
+        margin: 5% 20%;
+    }
+    
+    .parent-grid{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap:10px;
+    }
+    
+    .parent-grid2{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap:10px;
+    }
+    
+    
+    
+    
+}
