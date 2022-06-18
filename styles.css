@@ -124,14 +124,14 @@ h2 {
  .container-header-text-one{
     float: right;
     position: absolute;
-    top: 30px;
+    top: 50px;
     left: 125px;
  }
 
 .container-header-text-two{
     float: right;
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: 125px;
 }
  
